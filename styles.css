@@ -138,3 +138,41 @@ a[href="cs.html"]:hover {
     font-family: Tahoma;
     font-size: 18px;
 }
+
+@media only screen and (max-width: 600px) {
+    .master-table {
+      width: 100%;
+      font-size: small;
+    }
+    .master-table td {
+      display: block;
+      width: 80%;
+      height: auto;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .master-table {
+      width: 100%;
+    }
+    .master-table td {
+      display: block;
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+}
+
+  @media only screen and (min-width: 1025px) {
+
+    .master-table {
+      width: auto;
+    }
+    .master-table td {
+      display: table-cell;
+      width: auto;
+      height: auto;
+      text-align: center;
+    }
+}
