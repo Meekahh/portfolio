@@ -1,0 +1,140 @@
+td > img {
+    border-color: black;
+    border-style: solid;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0.2%;
+    background-color: black;
+}
+
+.nav-bar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    display: inline; 
+}
+
+.nav-bar ul li:nth-child(1) a {
+    display: block; 
+    padding: 0.5% 1%; 
+    text-decoration: none; 
+    color: white; 
+    text-shadow: 0px 0px 3px black;
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+.nav-bar ul li:nth-child(2) a {
+    display: block; 
+    padding: 0.5% 1%; 
+    text-decoration: none; 
+    color: white; 
+    text-shadow: 0px 0px 3px black;
+    background-color: mediumspringgreen;
+    text-align: center;
+}
+
+.nav-bar ul li:nth-child(3) a {
+    display: block; 
+    padding: 0.5% 1%; 
+    text-decoration: none; 
+    color: white; 
+    text-shadow: 0px 0px 3px black;
+    background-color: palegreen;
+    text-align: center;
+}
+
+.nav-bar ul li a:hover {
+    background-color: grey; 
+}
+
+#promPhoto {
+    border: 0.5%;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+#popOff {
+    border: 0.5%;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+#teaching {
+    border: 0.5%;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+#backPhoto {
+    border: 0.5%;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+#cat {
+    border: 0.5%;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+a:hover {
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+.sailing-list {
+    list-style-type: circle;
+}
+
+.cs-list {
+    list-style-type: circle;
+}
+
+.coding-projects {
+    list-style-type: square;
+}
+
+.awards-list {
+    list-style-type: upper-roman;
+}
+
+.master-table {
+    padding: 0%;
+    background-color: black;
+}
+
+a[href="coaching.html"] {
+    font-weight: bolder;
+    color: rgb(47, 51, 88);
+}
+
+a[href="coaching.html"]:hover {
+    color: white;
+}
+
+a[href="cs.html"] {
+    font-weight: bolder;
+    color: rgb(47, 51, 88);
+}
+
+a[href="cs.html"]:hover {
+    color: white;
+}
+
+.hover-effect {
+    transform: scale(1.05);
+}
+
+#currentTheme {
+    font-family: Tahoma;
+    font-size: 18px;
+}
